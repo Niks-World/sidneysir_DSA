@@ -9,6 +9,21 @@ public class forloop {
         }
 
 
+        for(int r=1; r<=4; r++){        //Q3 print  1 2 3 4 5 in 4 row 
+            for(int c=1; c<=5; c++){
+                System.out.print(c+" ");
+            };
+              System.out.println();
+
+        };
+
+
+
+
+
+
+
+
     }
 
 }
