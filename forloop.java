@@ -31,17 +31,40 @@ public class forloop {
         1 2 3 4 5  */
 
 
-      for(int i=0; i<=5; i++){
-        
-        for(int j=1;j<=5; j++){
-            // j++;
-            System.out.print(j+" ");
-        }
-        System.out.println();
-      }  
+      int count=1;
+      for (int r=1; r<=5; r++){
+         for(int c=1; c<=5; c++){
+             System.out.print(count+" ");
+                   count++;
+   
+           }
+          System.out.println(); 
+         }
+/* 1 2 3 4 5   printing for 1 to 25 
+6 7 8 9 10 
+11 12 13 14 15 
+16 17 18 19 20 
+21 22 23 24 25 
+ */
+int add=2;
+for(int i=1; i<=5; i++){
+   for(int j=1; j<=5;j++){
+     System.out.print(add+" ");
+       add+=2;
 
+   }
+  System.out.println();
 
+}
+/* printing the out put by incrment by 2 each time 
+  2 4 6 8 10 
+12 14 16 18 20 
+22 24 26 28 30 
+32 34 36 38 40 
+42 44 46 48 50 
+ */
 
+         
 
     }
 
