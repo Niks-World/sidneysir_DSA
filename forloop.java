@@ -18,8 +18,27 @@ public class forloop {
         };
 
 
+     for(int r=1; r<=5; r++){   //Q4 see the out put 
+        for(int m=1; m<=r; m++){
+            System.out.print(m+" ");
+        }
+        System.out.println();
+     }
+     /* 1   this will be the output 
+        1 2 
+        1 2 3 
+        1 2 3 4 
+        1 2 3 4 5  */
 
 
+      for(int i=0; i<=5; i++){
+        
+        for(int j=1;j<=5; j++){
+            // j++;
+            System.out.print(j+" ");
+        }
+        System.out.println();
+      }  
 
 
 
