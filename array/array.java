@@ -75,6 +75,31 @@ for (int i=0; i<squares.length;i++){
 
 // Note :  Once a array is created in java , its length is FiXED
 
+// Q insert value 16 in index 2 of array there are 2 array A
+// insert means i don't have to remove it i have to shift to right 
+
+int[] A= new int[]{10,5,3,4,2,0,0};
+
+
+int insIndex =2;
+int insValue=16;
+
+for(int i=0; i<A.length; i++){
+    System.out.print(A[i]+" ");     // op=> 10 5 3 4 2 0 0 
+}
+System.out.println();  // breake line
+// Step 1
+for(int i = A.length-1; i> insIndex; i--){
+    A[i] = A[i -1];
+}
+    A[insIndex] = insValue;   // Step 2
+
+for(int i=0; i<A.length; i++){
+    System.out.print(A[i]+" ");       // adding value 
+}
+System.out.println();
+// op=> 10 5 16 3 4 2 0  // 16 is at 2 index position 
+
 
 
     }
