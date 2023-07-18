@@ -20,5 +20,5 @@ public class nastedloop {
 
     }
 }
-//op=> GG GG GG GG 10 TIME
+//op=> GG GG GG GG 10 TIME.
 
