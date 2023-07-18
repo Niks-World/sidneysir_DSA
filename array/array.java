@@ -49,8 +49,31 @@ for(int i=0; i<num.length; i++){   // here is new array
 } // new op after converting=> 4 0 -1 2 6 8 13 1024
 
 
-//
+// calcuating the sqare 2*2=4 4*4=16 until 100 *100 =10000
 
+int[] squares = new int[100];
+
+for(int i=0; i<squares.length; i++){
+    squares[i]=(i+1)*(i+1);
+}
+
+for (int i=0; i<squares.length;i++){
+    System.out.println(squares[i]);
+}
+/* op is
+1  until 10000
+4 
+9
+16
+25
+36
+49
+64
+81
+100
+ */
+
+// Note :  Once a array is created in java , its length is FiXED
 
 
 
