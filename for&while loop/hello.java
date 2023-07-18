@@ -21,5 +21,29 @@ System.out.println("---------");
             count =count +1;
         }
 
+// running 100 m race can only take step 5m at a time        
+        int pos=0;
+        while( pos <= 100){
+            pos = pos +5 ;
+            System.out.println("Reached position " + pos);
+        }
+/*Reached position 5  output 
+Reached position 10
+Reached position 15
+Reached position 20  untill 100 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

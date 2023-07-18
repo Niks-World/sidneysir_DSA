@@ -7,8 +7,18 @@ public class num {
           System.out.println(num1 > num2);
           num1 = num1 +num3;
           System.out.println(num1 > num2);
-          
 
+// inremenrt 
+int a =25, b= 35;
+
+int c= ++a;
+int d= b++;
+++a; // moe a is 27
+
+System.out.println(c); // 26
+System.out.println(d); // 35
+System.out.println(a); //26
+System.out.println(b); // 36
 
 
 
