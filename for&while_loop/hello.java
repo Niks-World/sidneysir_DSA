@@ -32,6 +32,12 @@ Reached position 10
 Reached position 15
 Reached position 20  untill 100 */
 
+// print hello with while loop incerment
+int counter= 1;
+while(counter <=10){
+System.out.println("Hello");
+counter++;
+}
 
 
 
