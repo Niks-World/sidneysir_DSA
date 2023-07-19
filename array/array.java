@@ -101,6 +101,5 @@ System.out.println();
 // op=> 10 5 16 3 4 2 0  // 16 is at 2 index position 
 
 
-
     }
 }
