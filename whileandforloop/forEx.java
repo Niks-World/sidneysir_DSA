@@ -1,6 +1,6 @@
-package while&for_loop;
+package whileandforloop;
 
-public class for {
+public class forEx{
     public static void main(String[] args) {
         
     }

@@ -1,3 +1,4 @@
+package whileandforloop;
 public class hello {
     public static void main(String[] args) {
         // print hello 10 times
