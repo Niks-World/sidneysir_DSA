@@ -108,6 +108,12 @@ public static void main(String[] args) {
 // if i want to print in vertical then just commet out the [ System.out.println() ]  than it will be print in vortical way 
     
 // the out put in vs code is not working 
+// when i am tryin run here not working but on Replit its working.
+
+/* The erro is showing
+ Error: Could not find or load main class twoD3Darr
+Caused by: java.lang.NoClassDefFoundError: MultiDimensionArr/twoD3Darr (wrong name: twoD3Darr)
+ */
 
   }
 }
