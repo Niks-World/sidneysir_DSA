@@ -107,6 +107,7 @@ public static void main(String[] args) {
 }
 // if i want to print in vertical then just commet out the [ System.out.println() ]  than it will be print in vortical way 
     
+// the out put in vs code is not working 
 
   }
 }
