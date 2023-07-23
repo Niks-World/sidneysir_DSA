@@ -1,7 +1,7 @@
 package function;
 
 public class square {
-    
+    public static void main(String[] agrs){
         public static int square(int x){
           return x*x;
         }
@@ -25,3 +25,4 @@ public class square {
         }
       }
 
+    }
