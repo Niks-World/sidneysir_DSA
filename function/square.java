@@ -21,9 +21,10 @@ public class square {
       
           // System.out.println(Welcome("NIKHIl"));
       
-          
+        
         }
-      }
-
     }
+
+  }
+
     // Some out is not coming 
