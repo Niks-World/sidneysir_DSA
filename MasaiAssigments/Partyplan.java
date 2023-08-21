@@ -39,6 +39,8 @@ In the second sample test case, the list created by Pam will be 1 2 3 4 , while 
         // public static void partyPlanning(int n,int[] arr1, int m , int[] arr2){
             int n=123455;
             int m=122345;
+            int[] arr1={6};
+            int[] arr2= {6};
             //write your code here
              Set<Integer> pamSet = new HashSet<>();
                 for (int i = 0; i < n; i++) {
