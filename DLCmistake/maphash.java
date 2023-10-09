@@ -3,6 +3,8 @@ package DLCmistake;
 import java.util.HashMap;
 import java.util.Map;
 
+import MasaiAssigments.Hashmap;
+
 public class maphash {
     
     public static void main(String[] args) {
@@ -49,7 +51,29 @@ System.out.println();
 //in the array arr using a HashMap. The first duplicate element is 2.
 
 
+
+//------------------------------------------------------------------
+
+    int[] arr1 ={5, 7 , 9 , 7, 10 , 5};
+    HashMap<Integer,  Integer> map3 = new HashMap<>();
+
+    int uniqe = -1;
+
+    for(int num : arr1){
+        map3.put(num, map3.getOrDefault(num,0)+1);
     }
+
+    for(int num : arr1){
+        if(map3.get(num) == 1 ){
+            uniqe = num;
+            break;
+        }
+    }
+    System.out.println(uniqe);
+    }
+    //output is => 9
+    /*  This program finds the first unique element in the array
+     arr using a HashMap. The first unique element, which occurs only once in the array, is 9. */
 
  
 }
