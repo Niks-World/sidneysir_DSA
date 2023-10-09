@@ -1,6 +1,6 @@
 package MasaiAssigments;
 
-public class max {
+public class subString {
     public static void main(String[] args) {
 
          String s = "masaiisverygoodinsitute";
